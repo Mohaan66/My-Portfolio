@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useRef } from 'react';
+import { useOnClickOutside } from './hooks';
+import { GlobalStyles } from './Global';
+import Burger from './Components/Burger/Burger'
+import Menu from './Components/Menu/Menu'
+import Introduction from './Components/Introduction/Introduction';
+import Services from './Components/Services/Services';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+//import FocusLock from 'react-focus-lock';
+
+
+
+
+
+
+
+
+ function App() {
+
+  const [open, setOpen] = useState(false);
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
+
+	
+
+		
+		
+
+   return (
+    <div className='App'>
+     
+   
+     <GlobalStyles />
+      <Introduction />
+      <Services />
+   
+
+
+      <div ref={node}>
+     
+    
+    
+
+    
+     <Menu  open={open} setOpen={setOpen} />
+     <Burger open={open} setOpen={setOpen} />
+
+     
+     
+     </div>
+     </div>
+
+
   );
-}
+ }
+
 
 export default App;
