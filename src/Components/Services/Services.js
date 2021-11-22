@@ -74,37 +74,37 @@ export default function Services() {
                 I'm immensely proud of what I've managed to achieve.
 				</p>
 			</div> 
-			<img src="img/mohaan2.jpg" alt="mohaan leaning on bus" class="about__me-img" /> 
+			<img src="img/mohaan2.jpg" alt="mohaan leaning on bus" className="about__me-img" /> 
 		</section>
 
-		<section class="my-work" id="work">
-			<h2 class="section__title">My Work</h2>
-			<p class="section__subtitle-work">A Selection range of my Projects can be found my Git hub Acount.</p>
-			<div class="portofolio">
+		<section className="my-work" id="work">
+			<h2 className="section__title">My Work</h2>
+			<p className="section__subtitle-work">A Selection range of my Projects can be found my Git hub Acount.</p>
+			<div className="portofolio">
 				
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-01.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-01.jpg" alt="" className="portofolio__img" /></a>
 			
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-02.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-02.jpg" alt="" className="portofolio__img" /></a>
 				{/* portofolio__item-01 */}
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-03.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-03.jpg" alt="" className="portofolio__img" /></a>
 				{/* portofolio__item-01 */}
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-04.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-04.jpg" alt="" className="portofolio__img" /></a>
 				
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-05.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-05.jpg" alt="" className="portofolio__img" /></a>
 				
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-06.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-06.jpg" alt="" className="portofolio__img" /></a>
 			
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-07.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-07.jpg" alt="" className="portofolio__img" /></a>
 				
-				<a href="#" class="portofolio__item">
-				<img src="img/portofolio-08.jpg" alt="" class="portofolio__img" /></a>
+				<a href="/" className="portofolio__item">
+				<img src="img/portofolio-08.jpg" alt="" className="portofolio__img" /></a>
 
 				
 				
@@ -137,21 +137,7 @@ export default function Services() {
 		  
 
 
-			
-			
-
-
-
-
-
-			
-
-
-
-
-
-
-
+		
 
 			);
 }

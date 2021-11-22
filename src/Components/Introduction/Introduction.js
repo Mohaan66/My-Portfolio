@@ -12,7 +12,7 @@ const Introduction = () => {
 				Hi, I am <strong>Mohamed Abdi</strong>
 			</h1>
 			<p className="section__subtitle section__subtitle--intro"> front End web developer.</p>
-			  <img className="intro__img"  src={logo} />
+			  <img className="intro__img"  src={logo} alt="" />
 		</section>
  );
 
